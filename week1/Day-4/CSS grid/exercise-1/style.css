@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "f f c c c c""f f c c c c""f f c c c c""f f c c c c""f f m m m m";
+}
+
+.friends-field{
+    grid-area: f;
+    padding: 10px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: repeat(5, 1fr);
+    height: 90%;
+    background-color: purple;
+}
+
+.friend{
+   background-color: rgb(203, 159, 245);
+   border-radius: 10px;
+   padding: 10px;
+   height: 20px;
+   font-size: 20px;
+}
+
+.chat-field{
+    grid-area: c;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    /* height: 100%; */
+    background-color: rgb(195, 190, 190);
+
+}
+
+
+.message{
+    height: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sender{
+    background-color: rgb(122, 121, 121);
+    justify-self: start;
+}
+
+.receiver{
+    background-color: green;
+    justify-self: end;
+}
+
+.time{
+    font-size: 12px;
+    justify-self: end;
+    align-self: end;
+}
+
+.message-field{
+    grid-area: m;
+    display: grid;
+    height: 60px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.type{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.send{
+    background-color: purple;
+    padding: 20px;
+    justify-self: end;
+    width: 50%;
+    color: white;
+}

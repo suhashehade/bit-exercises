@@ -1,0 +1,30 @@
+form{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(184, 184, 237);
+    border: 5px solid rgb(9, 9, 240);
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.input-group{
+    display: inline-block;
+    margin: 5px;
+}
+
+input{
+    height: 20px;
+    padding: 5px;
+}
+
+button{
+    height: 30px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="input-group">
+                <label>name</label>
+                <input type="text" id="name" class="name" />
+            </div>
+            <div class="divid">
+                <div class="input-group left">
+                    <label>desired salary</label>
+                    <input type="number" id="salary" class="salary" />
+                </div>
+                <div class="input-group right">
+                    <label>birthday</label>
+                    <input type="date" id="birthday" class="birthday" />
+                </div>
+            </div>
+            <div class="input-group">
+                <label>phone</label>
+                <input type="number" id="phone" class="phone" />
+            </div>
+            <label id="message"></label>
+            <button type="button" onclick="validate()" id="submit" class="submit">submit</button>
+        </form>
+       
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

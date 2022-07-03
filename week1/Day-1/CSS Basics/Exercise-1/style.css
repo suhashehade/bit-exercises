@@ -1,0 +1,30 @@
+#container{
+    width: 20%;
+    background-color: gray;
+    box-shadow: 1px 5px;
+}
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+#first{
+    background-color: green;
+}
+
+#second{
+    background-color: orange;
+}
+
+.button{
+    background-color: greenyellow;
+   
+}
+.red-box{
+    margin-top: 2px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

@@ -1,0 +1,29 @@
+.container{
+   position: relative;
+   width: 220px;
+   height: 200px;
+}
+
+.pole{
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+}
+
+.magnet{
+   background-color: red; 
+   height: 140px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.hole{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 150px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

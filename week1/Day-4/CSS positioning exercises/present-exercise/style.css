@@ -1,0 +1,31 @@
+
+body{
+    box-sizing: border-box;
+}
+ .container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.vertiacl{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 100px;
+    background-color: blue;
+}
+
+.horizental{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100px;
+    height: 10px;
+    background-color: blue;
+} 
+
+
+

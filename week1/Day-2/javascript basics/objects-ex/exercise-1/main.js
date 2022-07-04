@@ -1,18 +1,18 @@
 let p1={
-    name:"suha",
+    name:"Jill",
     age:24,
     city:"nablus",
 }
 
 let p2 = {
-    name:"aya",
+    name:"Robert",
     age:24,
     city:"nablus",
 }
 
 if((p1.age == p2.age)){
     if((p1.city === p2.city))
-      console.log("Jill wanted to date Robert");
+      console.log(p1.name + " Jill wanted to date "+ p2.name);
   else if(p1.city !== p2.city)
-    console.log("Jill wanted to date Robert, but couldn’t");
+    console.log(p1.name + " wanted to date " + p2.name +", but couldn’t");
 }

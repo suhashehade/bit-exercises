@@ -1,0 +1,58 @@
+{
+  "Cows": {
+    "name": "Cattle",
+    "weigh": {
+      "kilos": 100,
+      "tons": 100000
+    },
+    "live": "",
+    "endangered": false,
+    "eat foods": [
+        "grass",
+        "something"
+    ],
+    "animals that eat it": [
+        "lion",
+        "tiger"
+    ],
+    "delicious ": 4
+  },
+  "Elephants": {
+    "name": "Elephant",
+    "weigh": {
+      "kilos": 5221,
+      "tons": 5221000
+    },
+    "live": "India",
+    "endangered": false,
+    "eat foods": [
+        "grass"
+    ],
+    "animals that eat it": [],
+    "delicious ": 0
+  },
+  "Wolf": {
+    "name": "",
+    "weigh": {
+      "kilos": "",
+      "tons": ""
+    },
+    "live": "",
+    "endangered": "",
+    "eat foods": [],
+    "animals that eat it": [],
+    "delicious ": ""
+  },
+  "Squirrel": {
+    "name": "",
+    "weigh": {
+      "kilos": "",
+      "tons": ""
+    },
+    "live": "",
+    "endangered": "",
+    "eat foods": [],
+    "animals that eat it": [],
+    "delicious ": ""
+  }
+}

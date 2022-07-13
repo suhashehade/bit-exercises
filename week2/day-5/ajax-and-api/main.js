@@ -6,23 +6,28 @@
 //    console.log(users[users.length - 1].company.catchPhrase);
 // })
 
-const displayData = function(data){
-    console.log(data);
-}
+// const displayData = function(data){
+//     console.log(data);
+// }
 
-const fetch = function(isbn){
-    $.ajax({
-        method: "GET",
-        url: 'https://www.googleapis.com/books/v1/volumes?q=isbn:0439023521',
-        success: displayData,
-        error: function(xhr, text, error){
-            alert("there is an issue");
-        }
-    });
-}
+// const fetch = function(isbn){
+//     $.ajax({
+//         method: "GET",
+//         url: 'https://www.googleapis.com/books/v1/volumes?q=isbn:0439023521',
+//         success: displayData,
+//         error: function(xhr, text, error){
+//             alert("there is an issue");
+//         }
+//     });
+// }
 
-$("button").on("click", function(){
-    fetch();
+// $("button").on("click", function(){
+//     fetch();
+// })
+
+
+let data = $.get('https://www.googleapis.com/books/v1/volumes?q=isbn:0439023521', function(result){
+    return result
 })
-
+console.log(data)
 

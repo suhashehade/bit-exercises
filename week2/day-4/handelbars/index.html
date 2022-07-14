@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="items">
+
+    </div>
+  
+  <div id="animals">
+
+  </div>
+  <div id="languages">
+
+  </div>
+    <!-- <script id="class-template" type="text/x-handlebars-template">
+       
+        {{#each classmates}}
+           <h1>{{name}}</h1>
+           <p>{{description}}</p>
+        {{/each}}
+       <p>{{welcome}}</p>
+    </script> -->
+    
+    <script id="animal-template" type="text/x-handlebars-template">
+        <h1>Animals</h1>
+        <ul>
+            {{#each animals}}
+                 <li>{{ this }}</li>
+            {{/each}}
+        </ul>
+        
+    </script>
+   
+    <script id="language-template" type="text/x-handlebars-template">
+        <h1>languages</h1>
+        <ul>
+            {{#each languages}}
+              <li>{{ this }}</li>
+            {{/each}}
+        </ul>
+        
+    </script>
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="handlebars.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

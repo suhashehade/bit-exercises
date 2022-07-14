@@ -230,9 +230,10 @@ let users = [
     },
   },
 ];
-const displayUsersInfo = function(user){
-   console.log(`${user.name.toUpperCase()} lives in ${user.address.city.toUpperCase()}, and owns the company ${user.company.name.toUpperCase()}`);
-}
+const displayUsersInfo = function (user) {
+  console.log(
+    `${user.name.toUpperCase()} lives in ${user.address.city.toUpperCase()}, and owns the company ${user.company.name.toUpperCase()}`
+  );
+};
 
-
-users.forEach(displayUsersInfo)
+users.forEach(displayUsersInfo);

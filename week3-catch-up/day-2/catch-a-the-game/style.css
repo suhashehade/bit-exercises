@@ -1,0 +1,57 @@
+.container {
+  height: 550px;
+  width: 600px;
+  display: grid;
+  grid-template-rows: 0.5fr 5fr 1fr;
+  grid-template-areas: "h" "pf" "f";
+}
+
+.header {
+  grid-area: h;
+  text-align: center;
+  background-color: green;
+}
+
+.playing-field {
+  grid-area: pf;
+  background-color: rgb(57, 195, 57);
+  position: relative;
+}
+
+.footer {
+  grid-area: f;
+  background-color: green;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer button {
+  background-color: rgb(116, 116, 223);
+}
+
+.frogs-left {
+  display: grid;
+  align-self: center;
+}
+
+.level {
+  display: grid;
+  align-self: center;
+}
+
+.frog {
+  position: absolute;
+}
+
+.time-interval {
+  color: rgb(235, 198, 78);
+}
+
+.alert {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  color: red;
+}

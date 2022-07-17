@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-transform: capitalize;
+    margin-left: 10px;
+    color: rgb(42, 63, 61)
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.user-info{
+    height: 100px;
+    width: 95%;
+    background-color: gray;
+    text-align: start;
+    padding: 5px;   
+    border-radius: 10px;
+}
+
+.user-info:hover{
+    background-color: rgb(88, 84, 84);
+}
+
+.email{
+    text-decoration: underline;
+    color: rgb(118, 118, 243);
+}

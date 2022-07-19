@@ -34,7 +34,6 @@ const renderWisdomPiece = function () {
 };
 
 $("body").on("click", ".delete-wisdom", function () {
-  console.log($(this));
   let index = $(this).data().id;
   wisdom.splice(index, 1);
   localStorage.setItem("wisdom", JSON.stringify(wisdom));

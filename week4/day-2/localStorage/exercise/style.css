@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.container {
+  width: 500px;
+  background-color: aqua;
+  padding: 10px;
+  border: 2px black solid;
+}
+
+.wisdom {
+  display: flex;
+  align-items: center;
+}
+
+.delete-wisdom {
+  margin: 10px;
+  background-color: red;
+}

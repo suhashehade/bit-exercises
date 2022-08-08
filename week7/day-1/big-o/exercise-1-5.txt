@@ -1,0 +1,60 @@
+Exercise-1: 
+const getBalance = function (bankOperations) {
+  let balance = 0
+  for (let op of bankOperations) {
+    balance += op
+   }
+   return balance
+}
+    
+getBalance([-27, -43, -2400, -700, 15000, 58])
+
+=> Time Complexity: O(n)
+
+
+
+Exercise-2:
+const printSome = function (complaints) {
+  for (let i = 1; i < complaints.length; i = i * 2)
+    console.log(complaints[i].text);
+}
+=> Time Complexity: O(log n)
+
+Exercise-3:
+const getHype = function (sides) {
+  let a = sides.a
+  let b = sides.b
+  let sumOfSquares = a * a + b * b
+  return Math.sqrt(sumOfSquares)
+}
+=> Time Complexity: O(1)
+
+Exercise-4:
+const getDistributions = function (studentAnswers) {
+  studentGithubs.forEach(sg => {
+    let answers = studentAnswers[sg]
+    
+    Object.keys(answers).forEach(questionNumber => {
+      let letterAnswer = answers[questionNumber]
+    
+      distributions[questionNumber][letterAnswer] ?
+        distributions[questionNumber][letterAnswer]++ :
+        distributions[questionNumber][letterAnswer] = 1
+    })
+  })
+    
+  return distributions
+}
+=> Time Complexity: O(nm)
+
+Exercise-5:
+const sendEmails = (email, recepients) => recepients.forEach(r => r.sendEmail(email))
+    
+const emailManager = function () {
+  let email = generateEmail()
+    
+  $.get('/recepients', function (recepients) {
+      sendEmails(email, recepients)
+  })
+}
+=> Time Complexity: O(n)

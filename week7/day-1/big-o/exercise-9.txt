@@ -1,0 +1,4 @@
+The red graph: O(n^2)
+The yellow graph: O(log n)
+The blue graph: O(n)
+The green graph: O(1)
